@@ -1,5 +1,5 @@
 import re
-from collections import Mapping
+from collections.abc import Mapping
 
 from E2Yaml.utilities import read_from_clipboard, write_to_clipboard, ignored_term_in_line, \
     convert_key_value_pairs_to_dictionary, process_key
